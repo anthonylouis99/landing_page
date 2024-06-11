@@ -1,10 +1,16 @@
+[Screenshot landing-page-Dark](https://github.com/anthonylouis99/landing_page/assets/117368312/d79d203f-e51c-4574-842c-c2e3fa9569c7)
+
+
+![Screenshot landing-page-Light](https://github.com/anthonylouis99/landing_page/assets/117368312/28262dee-6d74-400c-b1ce-cb77c7ba5109)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run:!
+
 
 ### `npm start`
 
