@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "CustomFont";
+  src: url("./Manrope/Manrope-VariableFont_wght.ttf");
+}
+
+body{
+  margin: 0;
+  padding: 0;
+ font-family: "CustomFont",'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+}
+.App{
+  padding: 0,30px;
+  background-color:#f3f3f3;
+  width: 100vw;
+  transition: 0.3s;
+}
+
+.App-header{
+  display: flex;
+  width: 95vw;
+  height: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 30px;
+  font-weight: bold;
+  color: #626262;
+    transition: 0.3s;
+
+}
+
+
+header>h2{
+  color: rgb(3, 3, 3);
+  font-size: 30px;
+    transition: 0.3s;
+}
+header >.ul-box >ul{
+  display: flex;
+  list-style: none;
+  gap:25px;
+}
+header >.ul-box >ul>li{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.login-box{
+display: flex;
+gap:20px;
+align-items: center;
+}
+.login-box> div{
+  width: auto;
+  height: 50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.label{
+  border-radius: 50px;
+  height: 50px;
+  width:100px ;
+  border:solid 2px #626262;
+  position: relative;
+  cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.label::before{
+    width: 40px;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 50%;
+    background: #bfdfe0;
+    position: absolute;
+    content: "";
+    margin: 5px;
+    transition: 0.5s;
+}
+
+.login-box> div>input:checked +.label::before{
+  transform: translateX(120%);
+  background-color: rgb(8, 8, 8);
+}
+
+.login-box> div>input:checked +.label{
+  background-color: #ffff;
+}
+
+.login-box> div>input{
+  display: none;
+}
+section{
+  background-image: url("../public/images/island-img.jpg");
+  height: 115vh;
+  display: flex;
+  flex-direction: row-reverse;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 50px;
+  
+  
+}
+
+.text-container{
+  display: flex;
+  width: 50%;
+  border-radius: 50px;
+  flex-direction: column;
+  padding: 15px;
+  align-items:center; 
+  background-color: #ffff;
+  border-radius: 50px;
+    transition: 0.3s;
+
+}
+
+.text-container>div>h1{
+  font-size: 75px;
+  font-weight: 650;
+  margin-bottom: 30px;
+  line-height: 80px;
+
+}
+.text-container>div>p{
+  font-size: 20px;
+  color:#8d8d8d ;
+  font-weight: 400;
+}
+
+.input-div{
+ position: relative;
+ width:100%;
+ margin-top: 130px;
+}
+
+.input-div>input{
+  height: 45px;
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid  #7a7a7a;
+  padding-left: 20px;
+  font-size: 17px;
+}
+.input-div>button{
+  height: 51px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #000000;
+  position: absolute;
+  color: #a8a8a8;
+  left: 77%;
+  bottom: 0;
+  font-size: 17px;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+
+footer{
+  display: flex;
+  height: 25vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 100px;
+}
+
+footer>div>p{
+  color: #a9a9a9;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.add{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  color: #f3f3f3;
+  border-radius: 50%;
+}
+
+.subtract{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  background-color: #000000;
+  color: #f3f3f3;
+  border-radius: 50%;
+}
+
+.display{
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#7a7a7a;
+  color: #f3f3f3;
+  border-radius: 50%;
+
+}
+
+.container{
+  display: flex;
+  justify-content:center;
+  align-items: flex-end;
+}
+
+
+.form-container{
+  width:50vw;
+  height: 300px;
+  padding: 30px;
+  background-color: rgb(115, 25, 199);
+}
+
+.form{
+  display:flex;
+  background-color: #ffff;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  border-radius: 20px;
+
+}
+
+.form>input{
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+ 
+}
+
+.form>div>input{
+  background-color: rgb(201, 201, 243);
+   cursor: pointer;
+
+}
+.form>button{
+  background-color: rgb(139, 139, 233);
+  border: none;
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  color: #f3f3f3;
+}
+ 
+
+
